@@ -17,7 +17,7 @@ router.post('/runs', requireToken, (req, res, next) => {
 
   Run.create(req.body.run)
     .then(run => {
-      res.status(201).json({ example: run.toObject() })
+      res.status(201).json({ run: run.toObject() })
     })
     .catch(next)
 })
