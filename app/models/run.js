@@ -9,7 +9,7 @@ const runSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  time: {
+  pace: {
     type: Number,
     required: true
   },

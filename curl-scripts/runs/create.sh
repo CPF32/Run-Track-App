@@ -12,7 +12,7 @@ curl "${API}${URL_PATH}" \
     "run": {
       "date": "'"${DATE}"'",
       "distance": "'"${DISTANCE}"'",
-      "time": "'"${TIME}"'",
+      "pace": "'"${PACE}"'",
       "description": "'"${DESCRIPTION}"'"
     }
   }'
