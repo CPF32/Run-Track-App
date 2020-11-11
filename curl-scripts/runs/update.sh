@@ -1,4 +1,4 @@
-#!/bin/#!/usr/bin/env bash
+#!/bin/bash
 
 API="http://localhost:4741"
 URL_PATH="/runs"
