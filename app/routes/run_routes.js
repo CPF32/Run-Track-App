@@ -24,10 +24,8 @@ router.post('/runs', requireToken, (req, res, next) => {
 
 // INDEX
 router.get('/runs', requireToken, (req, res, next) => {
-  Run.find()
-    .then(runs => {
-      return runs.map(run => run.toObject())
-    })
+  Run.find({ owner: req.user.id })
+    .then(runs => runs.map(run => run.toObject()))
     .then(runs => res.status(200).json({ runs: runs }))
     .catch(next)
 })
