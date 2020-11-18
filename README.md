@@ -50,32 +50,6 @@ My future goals for this project would be:
 
 - - - -
 
-## Wireframes & User Stories
-### User Stories
-#### Authentication
-  - As a user, I want to sign up with email, paswword, password confirmation
-  - As a user, I want to sign in with email and password
-  - As a user, I want to be able to change my password
-  - As a user, I want to sign out
+## Entity Relationship Diagram (ERD)
+![Hand Sketched ERD](https://user-images.githubusercontent.com/69026929/99468250-c7e23c80-2905-11eb-95b0-7169379bff05.jpg)
 
-#### Run Tracking
-  - As a signed in user, I want to be able to view all my private runs
-  - As a signed in user, I want to be able to add new runs to my DB
-  - As a signed in user, I want to be able to edit runs with ID
-  - As a signed in user, I want to be able to delete previous runs with ID
-
-### Wireframes
-#### Logged Out
-  - Sign up nav bar dropdown
-  - Sign in nav bar dropdown
-  - Community run table
-
-#### Logged In
-  - Change password nav bar dropdown
-  - Sign out nav bar dropdown
-  - Table of user runs
-  - Add/Edit/Delete run buttons (modal forms)
-
-#### Original Image
-![Hand Sketched Wireframe P1](https://user-images.githubusercontent.com/69026929/99465692-8bf8a880-2900-11eb-8b41-20e53e43e4ed.jpg)
-![Hand Sketched Wireframe P2](https://user-images.githubusercontent.com/69026929/99465699-8e5b0280-2900-11eb-89b7-1aa8d75479f0.jpg)
